@@ -51,7 +51,7 @@ public class Tower : MonoBehaviour
             }
         }
     }
-    //TODO: OnTriggerExit causes the code to reset, killing zombies faster than normal. use try/catch on OnTriggerStay 
+    //TODO: OnTriggerExit causes the code to reset, killing zombies faster than normal. Different method needed.
     void OnTriggerExit2D(Collider2D other)
     {
         if (Pew != null)
